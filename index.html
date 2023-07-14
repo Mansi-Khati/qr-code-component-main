@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | QR code component</title>
+  <style>
+    body
+    {
+      background-color:  hsl(212, 45%, 89%);
+      display:flex;
+      justify-content: center;
+      height:700px;
+    }
+    main
+    {
+      position: absolute;
+      top:60px;
+      bottom:200px;
+      background-color: white;
+      border-radius: 10px;
+      width:80%;
+      height:500px;
+      padding: 15px 25px;
+      display:flex;
+      text-align: center;
+      flex-direction: column;
+    }
+    img
+    {
+      width:100%;
+      height:70%;
+      border-radius: 10px;
+    }
+
+    .main
+    {
+      margin: 15px 20px;
+      font-size:20px;
+      font-weight:700 ;
+      font-family:'Poppins', sans-serif;
+    }
+
+    .below_main{
+      margin: 15px 30px;
+      font-size:13px;
+      color:hsl(220, 15%, 55%);
+      line-height: 1.25;
+      font-family:'Poppins', sans-serif;
+      font-weight:400 ;
+    }
+
+@media(min-width:768px) 
+{
+    body{
+        background-color:  hsl(212, 45%, 89%);
+        display:flex;
+        justify-content: center;
+    }
+    main{
+        background-color: white;
+        border-radius: 10px;
+        width:25%;
+        height:450px;
+        padding: 15px 25px;
+        display:flex;
+        text-align: center;
+        flex-direction: column;
+       
+    }
+    img{
+        width:100%;
+        height:70%;
+        border-radius: 10px;
+    }
+    
+    .main{
+        margin: 15px 20px;
+        font-size:20px;
+        font-weight:700 ;
+        font-family:'Poppins', sans-serif;
+    }
+    
+    .below_main{
+        margin: 15px 30px;
+        font-size:13px;
+        color:hsl(220, 15%, 55%);
+        line-height: 1.25;
+        font-family:'Poppins', sans-serif;
+        font-weight:400 ;
+    }
+}
+  </style>
+</head>
+<body>
+  <main>
+    <img src="./images/image-qr-code.png">
+    <div class="main">Improve your front-end skills by building projects</div>
+    <div class="below_main">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</div>
+  </main>
+</body>
+</html>
